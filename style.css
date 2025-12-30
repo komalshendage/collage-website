@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Header */
+header {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #0055a5;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    display: block;
+    padding: 12px 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar ul li a:hover {
+    background-color: #003366;
+    border-radius: 5px;
+}
+
+/* Login Button */
+.navbar .login a {
+    background-color: #ffcc00;
+    color: #003366;
+    border-radius: 5px;
+}
+
+.navbar .login a:hover {
+    background-color: #ffdb4d;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #e6f0ff;
+    padding: 40px;
+    text-align: center;
+}
+
+/* Content */
+.content {
+    background-color: white;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
