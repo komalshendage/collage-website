@@ -8,8 +8,8 @@ body {
 header {
     background-color: #003366;
     color: white;
-    padding: 20px;
     text-align: center;
+    padding: 20px;
 }
 
 /* Navbar */
@@ -26,15 +26,15 @@ header {
 }
 
 .navbar ul li {
-    margin: 0 15px;
+    margin: 0 10px;
 }
 
 .navbar ul li a {
-    display: block;
-    padding: 12px 15px;
     color: white;
+    padding: 12px 15px;
     text-decoration: none;
     font-weight: bold;
+    display: block;
 }
 
 .navbar ul li a:hover {
@@ -43,21 +43,10 @@ header {
 }
 
 /* Login Button */
-.navbar .login a {
+.login a {
     background-color: #ffcc00;
     color: #003366;
     border-radius: 5px;
-}
-
-.navbar .login a:hover {
-    background-color: #ffdb4d;
-}
-
-/* Hero Section */
-.hero {
-    background-color: #e6f0ff;
-    padding: 40px;
-    text-align: center;
 }
 
 /* Content */
@@ -65,6 +54,39 @@ header {
     background-color: white;
     margin: 20px;
     padding: 20px;
+    border-radius: 5px;
+}
+
+/* Departments */
+.dept {
+    background-color: #eef5ff;
+    padding: 15px;
+    margin: 15px 0;
+    border-left: 5px solid #0055a5;
+    border-radius: 5px;
+}
+
+/* Gallery */
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 200px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
     border-radius: 5px;
 }
 
